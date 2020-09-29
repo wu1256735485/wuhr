@@ -1,0 +1,116 @@
+.common-wrapper
+  padding-top 45px
+  background #fcfcfc
+  .common-inside
+    height calc(100% - 45px)
+    padding-bottom 110px
+    overflow-y scroll
+    display: flex
+    flex-direction: column
+    .ticket-wrapper
+      flex 1
+      padding-bottom 5px
+      overflow hidden
+    .personnel-wrapper
+      height 150px
+
+// 展示
+.show
+  display: block !important
+.hide
+  display: none !important
+
+// 工票信息展示样式
+.common-back
+  background: #fff !important
+.common-active
+  background: #9acafb !important
+.common-ticket
+  margin 5px 10px
+  // border 1px solid #93bcf0
+  border 1px solid #e6e6e6
+  border-radius 5px
+  font-size 14px
+  color #101010
+  background #fff
+  position relative
+  .ticket-status
+    position absolute
+    right 5px
+    top 5px
+    & > img
+      width 20px
+      height 20px
+  .ticket-unit
+    margin 0 6px
+    .unit
+      display flex
+      font-size 0px
+      .child
+        flex 1
+        line-height 25px
+        padding 0 4px
+        font-size 14px
+        overflow: hidden
+        text-overflow: ellipsis
+        white-space: nowrap
+        & > img
+          width 25px
+          height 25px
+          margin-left 25px
+        .desc
+          .select-text
+            height 25px
+            line-height: 25px !important
+            padding 0 0 0 5px
+            margin-top 2px
+          & > img
+            width 14px
+            height 14px
+            margin-left 5px
+            vertical-align middle
+          .child-text
+            width 50px
+            padding-left 5px
+            box-sizing border-box
+            border 1px solid #e6e6e6
+            border-radius 4px
+  .ticket-operation
+    height 50px
+    .oper
+      width 35%
+      margin-top 12px
+      margin-left 10px;
+      & > img
+        width 25px
+        height 25px
+        margin-top 12px
+    .oper-img
+      margin-top 12px
+      width 35px
+      float right
+      & > img
+        width 25px
+        height 25px
+
+
+.footer-btn
+  display flex
+  margin 5px
+  .btn
+    display block
+    flex 1
+    margin 5px
+    height 35px
+    line-height: 35px
+    color #fff
+    background: #fc9153
+    cursor pointer
+    text-align: center;
+    white-space: nowrap;
+
+.loading
+  position: absolute
+  left 50%
+  top 50%
+  transform: translate(-50%, -50%)

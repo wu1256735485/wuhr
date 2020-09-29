@@ -1,0 +1,5 @@
+export const SET_MATCHXLH_STATUS = 'SET_MATCHXLH_STATUS'
+
+export const SET_IS_SELECT = 'SET_IS_SELECT'
+
+export const SET_AUTH_STATUS = 'SET_AUTH_STATUS'
